@@ -1,0 +1,12 @@
+
+> @openzoo/docs@0.1.0 build D:\opensource_project\opencode-main\opencode-main\tech plugins\multica-main\openzoo\apps\docs
+> vite build
+
+vite v8.0.8 building client environment for production...
+[2Ktransforming...✓ 14 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.32 kB │ gzip:  0.23 kB
+dist/assets/index-BHNLuv8N.js  191.42 kB │ gzip: 60.61 kB
+
+✓ built in 1.09s

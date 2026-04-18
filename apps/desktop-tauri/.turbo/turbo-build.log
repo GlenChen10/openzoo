@@ -1,0 +1,62 @@
+
+> @openzoo/desktop-tauri@0.1.0 build D:\opensource_project\opencode-main\opencode-main\tech plugins\multica-main\openzoo\apps\desktop-tauri
+> vite build
+
+vite v8.0.8 building client environment for production...
+[2Ktransforming...✓ 1830 modules transformed.
+[lightningcss minify] Unknown at rule: @theme
+2  |  
+3  |  @layer theme {
+4  |    @theme default {
+   |          ^
+5  |      --font-sans:
+6  |        ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+[lightningcss minify] Unknown at rule: @theme
+522 |  
+523 |    /* Deprecated */
+524 |    @theme default inline reference {
+    |          ^
+525 |      --blur: 8px;
+526 |      --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+[lightningcss minify] Unknown at rule: @tailwind
+941 |  
+942 |  @layer utilities {
+943 |    @tailwind utilities;
+    |             ^
+944 |  }
+945 |  
+[lightningcss minify] Unknown at rule: @theme
+983 |  }
+984 |  
+985 |  @theme inline {
+    |        ^
+986 |    --color-background: var(--background);
+987 |    --color-foreground: var(--foreground);
+[lightningcss minify] Unknown at rule: @apply
+1007 |  
+1008 |  @layer base {
+1009 |    * { @apply border-border; }
+     |              ^
+1010 |    body { @apply bg-background text-foreground; }
+1011 |  }
+[lightningcss minify] Unknown at rule: @apply
+1008 |  @layer base {
+1009 |    * { @apply border-border; }
+1010 |    body { @apply bg-background text-foreground; }
+     |                 ^
+1011 |  }
+1012 |  
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.40 kB │ gzip:   0.27 kB
+dist/assets/index-CJqruq6p.css   23.32 kB │ gzip:   6.28 kB
+dist/assets/index-CbnUAFcM.js   474.18 kB │ gzip: 144.95 kB
+
+[33m[INEFFECTIVE_DYNAMIC_IMPORT] Warning:[0m ../../packages/core/src/workspace/queries.ts is dynamically imported by ../../packages/core/src/workspace/store.ts but also statically imported by ../../packages/core/src/auth/store.ts, ../../packages/core/src/index.ts, dynamic import will not move module into another chunk.
+
+[33m[PLUGIN_TIMINGS] Warning:[0m Your build spent significant time in plugins. Here is a breakdown:
+  - rolldown:vite-resolve (82%)
+  - vite:css (15%)
+See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 7.00s

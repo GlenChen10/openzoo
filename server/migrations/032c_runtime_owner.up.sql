@@ -1,0 +1,5 @@
+ALTER TABLE agent_runtime ADD COLUMN IF NOT EXISTS owner_id UUID REFERENCES "user"(id);
+UPDATE agent_runtime ar SET owner_id = (
+    SELECT m.user_id FROM member m
+    WHERE m.workspace_id = ar.workspace_id AND m.role = 'owner' LIMIT 1
+);
